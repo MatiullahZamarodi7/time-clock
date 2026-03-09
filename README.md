@@ -1,5 +1,5 @@
 
-## [show the online clock and test site❤️ ](https://matiullahzamarodi7.github.io/dy-clock/)
+## [show the online clock and test site❤️ ](https://matiullahzamarodi7.github.io/time-clock/)
 
 
 ---
