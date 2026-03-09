@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg , #1a2a6c , #b21f1f , #fddb2d);
+    animation: myAnimation 5s ease infinite;
+    background-size: 400% 400%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+@keyframes myAnimation{
+    0%{background-position: 0% 50%;}
+    50%{ background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+
+.clockContainer{
+    /* background-color: rgb(0, 0, 0 , 0.4); */
+    padding: 20px 60px;
+    border-radius: 25px;
+    box-shadow: 0 0 70px rgb(0, 0, 0 , 0.7);
+    cursor: pointer;
+}
+
+.clock{
+    font-size: 60px;
+    color: rgb(21, 223, 223);
+    display: flex;
+    align-items: center;
+    letter-spacing: 10px;
+}
+
+#ampm{
+    padding-left: 30px;
+} 
+
+
+#houres , #minites , #seconds , #ampm{
+    transition: transform 0.5s;
+}
+
+.clock span:hover{
+    transform: scale(1.2);
+}
+
+
